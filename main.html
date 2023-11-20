@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="120"> -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+
+
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="icon" href="im/favicon.ico" type="image/x-icon">
+    <script src="scripts/main.js"></script>
+    <title>ORGANZA Price Calculater</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong|anaglyph">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation|grass">
+
+</head>
+
+<body>
+
+    <div class="header font-effect-fire-animation">
+        <header class="">Organza Price Calculater</header>
+    </div>
+
+
+    <div class="aside">
+
+    </div>
+
+    <div class="article">
+        <form action="" method="post" name="form1" autocomplete="on">
+
+            <div>
+                <div class="label"><label for="EPI">Enter Ends</label></div>
+
+                <div class="input"><input type="number" name="EPI" id="EPI" placeholder="One Inch" size="20" required></div>
+
+            </div>
+            <div>
+                <div class="label"><label for="PPI">Enter Picks</label></div>
+
+                <div class="input"><input type="number" name="PPI" id="PPI" placeholder="One Inch" size="20" required></div>
+            </div>
+
+            <div>
+                <div class="label"><label for="Yarndanier">Yarn Danier</label></div>
+
+                <div class="input">
+                    <input type="text" name="" id="Yarndanier" placeholder="Danier" required></div>
+            </div>
+
+            <div>
+                <div class="label">
+                    <label for="choice">Width Unit</label>
+                </div>
+
+                <div class="input">
+                    <select name="choice" id="choice">
+                    <option value="1">Meters</option>
+                    <option value="2" selected>Yards</option>
+                </select>
+                </div>
+            </div>
+
+            <div>
+                <div class="label"><label for="yarnrate">Yarn Rate</label></div>
+                <div class="input">
+                    <input type="number" name="yarnrate" id="yarnrate" placeholder="Rate" required></div>
+            </div>
+            <div>
+                <div class="label"><label for="wof">Width Of Fabric</label></div>
+                <div class="input"><input type="number" name="wof" id="wof" placeholder="width" required></div>
+            </div>
+            <div>
+                <div class="label"><label for="DLF">Desired Length Of Fabric</label></div>
+                <div class="input"><input type="number" name="DLF" id="DLF" placeholder="DLF" required></div>
+            </div>
+            <div><button type="button" class="btn" onclick="OPC()">Calculate</button><input class="btn" type="button" value="Input BTN" onclick="OPC()"></div>
+
+            <div class="Result_div">
+                <fieldset>
+                    <legend>Result</legend>
+                    <div class="">
+                        <label for=""><p id="">Warpweight of<input type="text" name="" id="Warp_ans" size="5" readonly>
+                            <input type="text" name="" id="Unit_ans" size="5" readonly> = <input type="text" name="" id="Warpweight=ans" size="10" readonly> Grams </p></label>
+                    </div>
+                    <div class="">
+                        <label for=""><p id="">Weftpweight of<input type="text" name="" id="Weft_ans" size="5" readonly><input type="text" name=""  id="Unit2" size="5" readonly> = <input type="text" name="" id="Weftweight=ans" size="10" readonly> Grams</p></label>
+                    </div>
+                    <div class="">
+                        <label for=""><p id="">TOTAL PRICE OF<input type="text" name="" id="PriceLength" size="5" readonly>
+                            <input type="text" name="" id="Unit3" size="5" readonly> = <input type="text" name="" id="PriceShow" size="10"> Rupees </p></label>
+                    </div>
+
+                </fieldset>
+            </div>
+
+
+
+
+
+
+
+        </form>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
