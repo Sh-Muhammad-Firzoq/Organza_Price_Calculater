@@ -124,3 +124,33 @@ input {
 .input>input:hover {
     width: 40%;
 }
+
+@media screen and (max-width:600px) {
+    .aside,
+    .menuitems {
+        width: 100%;
+        font-size: 1rem;
+        height: auto;
+    }
+    .aside {
+        padding: 1rem;
+    }
+    .header {
+        font-size: 2rem;
+    }
+    .article {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .label {
+        width: 30%;
+        font-size: 1rem;
+    }
+    .input {
+        width: 50%;
+    }
+    .btn {
+        font-size: small;
+    }
+}
