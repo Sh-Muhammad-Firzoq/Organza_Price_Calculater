@@ -125,7 +125,7 @@ input {
     width: 40%;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     .aside,
     .menuitems {
         width: 100%;
