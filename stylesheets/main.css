@@ -1,6 +1,7 @@
 body {
     box-sizing: border-box;
-    background-color: rgb(248, 199, 100);
+    /* background-color: rgb(241, 217, 168); */
+    background-image: linear-gradient(to bottom-right, rgb(190, 127, 10), red);
     height: auto;
     margin: 0;
     padding: 0;
@@ -14,7 +15,7 @@ body {
     border-radius: 255px 15px 255px 15px;
     font-size: 3rem;
     font-family: 'Vina Sans', sans-serif;
-    transition: 1.5s ease-in-out;
+    transition: 1s ease-in-out;
 }
 
 .header:hover {
@@ -54,11 +55,33 @@ body {
     float: left;
     border-right: 2px solid transparent;
     margin-right: 1%;
+    /* background-color: blueviolet; */
+}
+
+.mainn {
+    /* background-color: brown; */
+    width: 100vw;
+    overflow: auto;
 }
 
 .article {
     width: 75%;
-    float: left;
+    margin-left: 2%;
+    float: right;
+    /* background-color: aqua; */
+}
+
+.hmenu {
+    box-sizing: border-box;
+    width: 98vw;
+    margin: auto;
+    background-color: rgb(3, 168, 168);
+    color: rgb(0, 0, 0);
+    padding: 0.5rem;
+    margin: 0.2rem;
+    border-radius: 355px 355px 355px 355px;
+    font-family: 'Abril Fatface', serif;
+    overflow: auto;
 }
 
 .menu {
@@ -87,20 +110,26 @@ body {
     background-color: rgb(15, 15, 15);
     color: rgb(230, 170, 8);
     transform: scale(0.9, 1.2);
-    border-radius: 255px 25px 255px 255px;
+    border-radius: 255px 255px 255px 255px;
 }
 
 .label {
+    box-sizing: border-box;
     display: inline-block;
-    width: 40%;
-    margin: auto;
+    width: 45%;
 }
 
 .input {
+    box-sizing: border-box;
     margin: auto;
     display: inline-block;
     width: 50%;
     border-radius: 15% 0% 15% 0%;
+}
+
+.main {
+    width: 80%;
+    margin: auto;
 }
 
 input {
@@ -112,13 +141,17 @@ input {
     padding: 1%;
     margin: 1%;
     width: 20%;
-    transition: width 1s ease-in-out;
+    transition: width 0.4s ease-in-out;
 }
 
 .btn {
     font-family: 'Abril Fatface', serif;
     padding: 1% 0%;
     font-size: 1em;
+}
+
+.SR {
+    font-family: 'Abril Fatface', serif;
 }
 
 .input>input:hover {
